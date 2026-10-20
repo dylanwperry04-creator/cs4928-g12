@@ -7,3 +7,14 @@ Assigned study: Çağlar et al., "Automated Inline Comment Smell Detection and R
 | Folder / file | What it is |
 |---|---|
 | `original_artefact/` | Figshare download, unchanged |
+| `prompts/detection_prompt.txt` | The fixed detection prompt |
+| `inputs/` | The 50 sampled cases and the five batches sent to the model |
+| `reference/labels.csv` | Ground-truth labels. Never sent to the model |
+| `scripts/prepare_inputs.py` | Builds `inputs/` and `reference/` from the dataset |
+
+## Rebuild the inputs
+
+```bash
+python3 scripts/prepare_inputs.py    # rebuilds inputs/ and reference/ (byte-identical)
+```
+Python 3.10+, standard library only.
