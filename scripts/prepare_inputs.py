@@ -62,13 +62,13 @@ def main():
     sample = eligible_cases(data)[:SAMPLE_SIZE]
 
     with open(ROOT / "inputs" / "sample.csv", "w", newline="", encoding="utf-8") as f:
-        w = csv.writer(f)
+        w = csv.writer(f, lineterminator="\n")
         w.writerow(["case_id", "project", "file_path", "line_start", "line_end", "source_sha256"])
         for c in sample:
             w.writerow([c["case_id"], c["project"], c["file_path"], c["line_start"], c["line_end"], c["source_sha256"]])
 
     with open(ROOT / "reference" / "labels.csv", "w", newline="", encoding="utf-8") as f:
-        w = csv.writer(f)
+        w = csv.writer(f, lineterminator="\n")
         w.writerow(["case_id", "label"])
         for c in sample:
             w.writerow([c["case_id"], c["label"]])

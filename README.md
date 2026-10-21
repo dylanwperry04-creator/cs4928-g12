@@ -12,6 +12,8 @@ Assigned study: Çağlar et al., "Automated Inline Comment Smell Detection and R
 | `reference/labels.csv` | Ground-truth labels. Never sent to the model |
 | `scripts/prepare_inputs.py` | Builds `inputs/` and `reference/` from the dataset |
 | `PLAN.md` | Research questions, collection procedure and scoring decision rule |
+| `runs/` | Raw model replies, saved unchanged, plus the run log |
+| `AI_LOG.md`, `DEVIATIONS.md` | AI use and departures from the paper |
 | `scripts/score.py` | Scores a saved run |
 | `tests/` | Checks for the scoring maths |
 | `results/` | Scored output for each run |

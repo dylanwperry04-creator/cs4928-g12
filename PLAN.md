@@ -104,10 +104,6 @@ The sample covers one file and has few or no examples of some
 categories, limiting what we can conclude. ChatGPT responses may
 vary, and some comments may not map to current code.
 
-The original M1 plan and the change from Random Forest to an LLM
-remain part of the project history:
-https://github.com/seancoughlan29/cs4928-g12
-
 Any changes after freezing will be recorded with their date and reason.
 Required contribution and assistance notes will be kept with the
 course evidence.
