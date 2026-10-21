@@ -1,0 +1,62 @@
+[
+  {
+    "case_id": "dataset:000001",
+    "predicted_label": "Task",
+    "context_sufficient": true,
+    "reason": "The TODO references a tracked issue for addressing deprecated API usage."
+  },
+  {
+    "case_id": "dataset:000002",
+    "predicted_label": "Task",
+    "context_sufficient": true,
+    "reason": "The TODO identifies outstanding work related to the suppressed deprecation warning."
+  },
+  {
+    "case_id": "dataset:000003",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "The comment clarifies which notifications the constant is intended to enable."
+  },
+  {
+    "case_id": "dataset:000004",
+    "predicted_label": "Beautification",
+    "context_sufficient": true,
+    "reason": "The comment serves as a generic section heading for variable declarations."
+  },
+  {
+    "case_id": "dataset:000005",
+    "predicted_label": "Beautification",
+    "context_sufficient": true,
+    "reason": "The decorative divider labels a section containing overridden methods."
+  },
+  {
+    "case_id": "dataset:000006",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "The comment repeats the purpose of the immediately following action-bar configuration calls."
+  },
+  {
+    "case_id": "dataset:000007",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "The comment explains the lifecycle precedence between initial collection-path assignment and state restoration."
+  },
+  {
+    "case_id": "dataset:000008",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "The comment explains why a collection-path change triggers immediate navigation to the deck picker."
+  },
+  {
+    "case_id": "dataset:000009",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "The comment flags a potential performance concern involving database access on the foreground thread."
+  },
+  {
+    "case_id": "dataset:000010",
+    "predicted_label": "Beautification",
+    "context_sufficient": true,
+    "reason": "The decorative divider introduces a section of class methods without explaining their behavior."
+  }
+]

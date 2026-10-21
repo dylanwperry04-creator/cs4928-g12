@@ -1,0 +1,62 @@
+[
+  {
+    "case_id": "dataset:000011",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "The comment restates the language initialization indicated by initializeLanguageDialog(screen)."
+  },
+  {
+    "case_id": "dataset:000012",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "The comment explains the user-facing restriction behind the gesture check, fullscreen mode value, and error toast."
+  },
+  {
+    "case_id": "dataset:000013",
+    "predicted_label": "Beautification",
+    "context_sufficient": true,
+    "reason": "The comment serves as a section heading for the custom buttons preference setup without explaining its behavior."
+  },
+  {
+    "case_id": "dataset:000014",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "The comment repeats the clearly visible reset operation that removes custom toolbar button preferences."
+  },
+  {
+    "case_id": "dataset:000015",
+    "predicted_label": "Commented out code",
+    "context_sufficient": true,
+    "reason": "The comment contains a disabled Java method invocation, finish(), within the preference click handler."
+  },
+  {
+    "case_id": "dataset:000016",
+    "predicted_label": "Task",
+    "context_sufficient": true,
+    "reason": "The TODO explicitly identifies unfinished work to reload the preferences screen after resetting customizations."
+  },
+  {
+    "case_id": "dataset:000017",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "The comment explains why directory initialization is attempted before accepting a collection path change."
+  },
+  {
+    "case_id": "dataset:000018",
+    "predicted_label": "Beautification",
+    "context_sufficient": true,
+    "reason": "The comment is a section label introducing the custom sync server preference rather than explaining its behavior."
+  },
+  {
+    "case_id": "dataset:000019",
+    "predicted_label": "Beautification",
+    "context_sufficient": true,
+    "reason": "The comment functions as a section heading for the advanced statistics preference setup."
+  },
+  {
+    "case_id": "dataset:000020",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "The comment explains the intentional crash-testing purpose and debug-build restriction of the preference."
+  }
+]

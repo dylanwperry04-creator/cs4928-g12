@@ -1,0 +1,62 @@
+[
+  {
+    "case_id": "dataset:000041",
+    "predicted_label": "Vague",
+    "context_sufficient": true,
+    "reason": "The misspelled question suggests no action is needed when scheduler versions match but leaves the intent uncertain."
+  },
+  {
+    "case_id": "dataset:000042",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "The nearby changeSchedulerVer(1) call already makes the transition back to V1 clear."
+  },
+  {
+    "case_id": "dataset:000043",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "The comment explains why the caught exception is considered unreachable following the explicit modSchemaNoCheck() call."
+  },
+  {
+    "case_id": "dataset:000044",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "The nearby changeSchedulerVer(2) call already clearly identifies the transition to V2."
+  },
+  {
+    "case_id": "dataset:000045",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "The comment provides a rationale for treating ConfirmModSchemaException as unexpected after calling modSchemaNoCheck()."
+  },
+  {
+    "case_id": "dataset:000046",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "The updateSummary(pref) call already indicates that the preference summary is being updated."
+  },
+  {
+    "case_id": "dataset:000047",
+    "predicted_label": "Beautification",
+    "context_sufficient": true,
+    "reason": "The comment serves as a section heading for the switch statement without explaining its specific behavior."
+  },
+  {
+    "case_id": "dataset:000048",
+    "predicted_label": "Beautification",
+    "context_sufficient": true,
+    "reason": "The comment merely labels the section that retrieves preference values without providing additional explanation."
+  },
+  {
+    "case_id": "dataset:000049",
+    "predicted_label": "Beautification",
+    "context_sufficient": true,
+    "reason": "The comment acts as a section heading for retrieving the original summary rather than explaining a non-obvious detail."
+  },
+  {
+    "case_id": "dataset:000050",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "The following conditional branches and setSummary calls already show that the summary is updated according to different value conditions."
+  }
+]

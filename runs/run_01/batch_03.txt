@@ -1,0 +1,62 @@
+[
+  {
+    "case_id": "dataset:000021",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "The BuildConfig.DEBUG condition and analytics debugging preference already make the comment's purpose clear."
+  },
+  {
+    "case_id": "dataset:000022",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "The comment clarifies that changelog access is intentionally available in both build types, unlike the preceding debug-only preferences."
+  },
+  {
+    "case_id": "dataset:000023",
+    "predicted_label": "Beautification",
+    "context_sufficient": true,
+    "reason": "The comment serves as a section heading for the full-sync preference configuration without explaining its behavior."
+  },
+  {
+    "case_id": "dataset:000024",
+    "predicted_label": "Beautification",
+    "context_sufficient": true,
+    "reason": "The comment labels a group of preference-related method calls without explaining the workarounds they implement."
+  },
+  {
+    "case_id": "dataset:000025",
+    "predicted_label": "Task",
+    "context_sufficient": true,
+    "reason": "The FIXME identifies a language inconsistency between system-defined menu names and application language that remains to be addressed."
+  },
+  {
+    "case_id": "dataset:000026",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "The comment explains the non-obvious fact that resource strings named for the card browser are reusable for other context menus."
+  },
+  {
+    "case_id": "dataset:000027",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "The comment documents a relevant known limitation in image handling, where the implementation relies on obtaining a local file path."
+  },
+  {
+    "case_id": "dataset:000028",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "The division by 1024 squared already makes the conversion from bytes to megabytes apparent."
+  },
+  {
+    "case_id": "dataset:000029",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "The condition checking fileLength against 10 and the subsequent file-channel transfer already express the described behavior."
+  },
+  {
+    "case_id": "dataset:000030",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "The comment explains why the preference uses a custom click listener and handles missing browser applications rather than relying on a declarative intent."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "case_id": "dataset:000031",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "Explains the snackbar space constraint motivating the choice of a different error message."
+  },
+  {
+    "case_id": "dataset:000032",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "Clarifies that these preference values are stored in the Collection configuration rather than ordinary preferences."
+  },
+  {
+    "case_id": "dataset:000033",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "Restates the immediately visible behavior of disabling the preference when the Collection is unavailable."
+  },
+  {
+    "case_id": "dataset:000034",
+    "predicted_label": "Misleading",
+    "context_sufficient": true,
+    "reason": "Claims a value is retrieved from the summary cache, whereas the code reads the preference summary and stores it in a map."
+  },
+  {
+    "case_id": "dataset:000035",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "Merely repeats the purpose already expressed by the immediately following updateSummary(pref) call."
+  },
+  {
+    "case_id": "dataset:000036",
+    "predicted_label": "Task",
+    "context_sufficient": true,
+    "reason": "Records outstanding work to migrate deprecated preference handling to fragments, referencing GitHub issue 5019."
+  },
+  {
+    "case_id": "dataset:000037",
+    "predicted_label": "Beautification",
+    "context_sufficient": true,
+    "reason": "Acts as a section heading for the switch statement without explaining any specific behavior."
+  },
+  {
+    "case_id": "dataset:000038",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "Warns that sync server preference changes are handled before the user presses Back, highlighting a timing concern."
+  },
+  {
+    "case_id": "dataset:000039",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "Explains why error-reporting limiter data must be cleared after the reporting preference changes."
+  },
+  {
+    "case_id": "dataset:000040",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "Explains the non-obvious purpose of reinitializing analytics after changing error-reporting settings."
+  }
+]
