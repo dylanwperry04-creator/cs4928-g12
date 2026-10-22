@@ -1,0 +1,51 @@
+case_id,label,predicted,correct,context_sufficient,reason
+dataset:000001,Task,Task,True,True,The TODO references a tracked issue for addressing deprecated API usage.
+dataset:000002,Task,Task,True,True,The TODO identifies outstanding work related to the suppressed deprecation warning.
+dataset:000003,Not a smell,Not a smell,True,True,The comment clarifies which notifications the constant is intended to enable.
+dataset:000004,Beautification,Beautification,True,True,The comment serves as a generic section heading for variable declarations.
+dataset:000005,Beautification,Beautification,True,True,The decorative divider labels a section containing overridden methods.
+dataset:000006,Obvious,Obvious,True,True,The comment repeats the purpose of the immediately following action-bar configuration calls.
+dataset:000007,Not a smell,Not a smell,True,True,The comment explains the lifecycle precedence between initial collection-path assignment and state restoration.
+dataset:000008,Not a smell,Not a smell,True,True,The comment explains why a collection-path change triggers immediate navigation to the deck picker.
+dataset:000009,Not a smell,Not a smell,True,True,The comment flags a potential performance concern involving database access on the foreground thread.
+dataset:000010,Beautification,Beautification,True,True,The decorative divider introduces a section of class methods without explaining their behavior.
+dataset:000011,Obvious,Obvious,True,True,The comment restates the language initialization indicated by initializeLanguageDialog(screen).
+dataset:000012,Not a smell,Not a smell,True,True,"The comment explains the user-facing restriction behind the gesture check, fullscreen mode value, and error toast."
+dataset:000013,Obvious,Beautification,False,True,The comment serves as a section heading for the custom buttons preference setup without explaining its behavior.
+dataset:000014,Obvious,Obvious,True,True,The comment repeats the clearly visible reset operation that removes custom toolbar button preferences.
+dataset:000015,Commented out code,Commented out code,True,True,"The comment contains a disabled Java method invocation, finish(), within the preference click handler."
+dataset:000016,Task,Task,True,True,The TODO explicitly identifies unfinished work to reload the preferences screen after resetting customizations.
+dataset:000017,Not a smell,Not a smell,True,True,The comment explains why directory initialization is attempted before accepting a collection path change.
+dataset:000018,Obvious,Beautification,False,True,The comment is a section label introducing the custom sync server preference rather than explaining its behavior.
+dataset:000019,Obvious,Beautification,False,True,The comment functions as a section heading for the advanced statistics preference setup.
+dataset:000020,Obvious,Not a smell,False,True,The comment explains the intentional crash-testing purpose and debug-build restriction of the preference.
+dataset:000021,Obvious,Obvious,True,True,The BuildConfig.DEBUG condition and analytics debugging preference already make the comment's purpose clear.
+dataset:000022,Obvious,Not a smell,False,True,"The comment clarifies that changelog access is intentionally available in both build types, unlike the preceding debug-only preferences."
+dataset:000023,Obvious,Beautification,False,True,The comment serves as a section heading for the full-sync preference configuration without explaining its behavior.
+dataset:000024,Not a smell,Beautification,False,True,The comment labels a group of preference-related method calls without explaining the workarounds they implement.
+dataset:000025,Task,Task,True,True,The FIXME identifies a language inconsistency between system-defined menu names and application language that remains to be addressed.
+dataset:000026,Not a smell,Not a smell,True,True,The comment explains the non-obvious fact that resource strings named for the card browser are reusable for other context menus.
+dataset:000027,Task,Not a smell,False,True,"The comment documents a relevant known limitation in image handling, where the implementation relies on obtaining a local file path."
+dataset:000028,Not a smell,Obvious,False,True,The division by 1024 squared already makes the conversion from bytes to megabytes apparent.
+dataset:000029,Not a smell,Obvious,False,True,The condition checking fileLength against 10 and the subsequent file-channel transfer already express the described behavior.
+dataset:000030,Task,Not a smell,False,True,The comment explains why the preference uses a custom click listener and handles missing browser applications rather than relying on a declarative intent.
+dataset:000031,Not a smell,Not a smell,True,True,Explains the snackbar space constraint motivating the choice of a different error message.
+dataset:000032,Obvious,Not a smell,False,True,Clarifies that these preference values are stored in the Collection configuration rather than ordinary preferences.
+dataset:000033,Obvious,Obvious,True,True,Restates the immediately visible behavior of disabling the preference when the Collection is unavailable.
+dataset:000034,Obvious,Misleading,False,True,"Claims a value is retrieved from the summary cache, whereas the code reads the preference summary and stores it in a map."
+dataset:000035,Obvious,Obvious,True,True,Merely repeats the purpose already expressed by the immediately following updateSummary(pref) call.
+dataset:000036,Task,Task,True,True,"Records outstanding work to migrate deprecated preference handling to fragments, referencing GitHub issue 5019."
+dataset:000037,Obvious,Beautification,False,True,Acts as a section heading for the switch statement without explaining any specific behavior.
+dataset:000038,Not a smell,Not a smell,True,True,"Warns that sync server preference changes are handled before the user presses Back, highlighting a timing concern."
+dataset:000039,Not a smell,Not a smell,True,True,Explains why error-reporting limiter data must be cleared after the reporting preference changes.
+dataset:000040,Not a smell,Not a smell,True,True,Explains the non-obvious purpose of reinitializing analytics after changing error-reporting settings.
+dataset:000041,Vague,Vague,True,True,The misspelled question suggests no action is needed when scheduler versions match but leaves the intent uncertain.
+dataset:000042,Obvious,Obvious,True,True,The nearby changeSchedulerVer(1) call already makes the transition back to V1 clear.
+dataset:000043,Not a smell,Not a smell,True,True,The comment explains why the caught exception is considered unreachable following the explicit modSchemaNoCheck() call.
+dataset:000044,Obvious,Obvious,True,True,The nearby changeSchedulerVer(2) call already clearly identifies the transition to V2.
+dataset:000045,Not a smell,Not a smell,True,True,The comment provides a rationale for treating ConfirmModSchemaException as unexpected after calling modSchemaNoCheck().
+dataset:000046,Obvious,Obvious,True,True,The updateSummary(pref) call already indicates that the preference summary is being updated.
+dataset:000047,Obvious,Beautification,False,True,The comment serves as a section heading for the switch statement without explaining its specific behavior.
+dataset:000048,Obvious,Beautification,False,True,The comment merely labels the section that retrieves preference values without providing additional explanation.
+dataset:000049,Obvious,Beautification,False,True,The comment acts as a section heading for retrieving the original summary rather than explaining a non-obvious detail.
+dataset:000050,Obvious,Obvious,True,True,The following conditional branches and setSummary calls already show that the summary is updated according to different value conditions.

@@ -1,0 +1,11 @@
+label,support,precision,recall,f1
+Not a smell,16,0.722,0.812,0.765
+Obvious,22,0.833,0.455,0.588
+Task,7,1.0,0.714,0.833
+Vague,1,1.0,1.0,1.0
+Beautification,3,0.25,1.0,0.4
+Commented out code,1,1.0,1.0,1.0
+Misleading,0,0.0,0.0,0.0
+Too much info,0,0.0,0.0,0.0
+Nonlocal info,0,0.0,0.0,0.0
+Irrelevant,0,0.0,0.0,0.0

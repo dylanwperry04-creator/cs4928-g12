@@ -1,0 +1,11 @@
+actual \ predicted,Not a smell,Obvious,Task,Vague,Beautification,Commented out code,Misleading,Too much info,Nonlocal info,Irrelevant
+Not a smell,13,2,0,0,1,0,0,0,0,0
+Obvious,3,10,0,0,8,0,1,0,0,0
+Task,2,0,5,0,0,0,0,0,0,0
+Vague,0,0,0,1,0,0,0,0,0,0
+Beautification,0,0,0,0,3,0,0,0,0,0
+Commented out code,0,0,0,0,0,1,0,0,0,0
+Misleading,0,0,0,0,0,0,0,0,0,0
+Too much info,0,0,0,0,0,0,0,0,0,0
+Nonlocal info,0,0,0,0,0,0,0,0,0,0
+Irrelevant,0,0,0,0,0,0,0,0,0,0

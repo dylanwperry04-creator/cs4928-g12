@@ -1,0 +1,11 @@
+case_id,label,predicted,false_positive
+dataset:000001,Task,Task,False
+dataset:000002,Task,Task,False
+dataset:000004,Beautification,Beautification,False
+dataset:000005,Beautification,Beautification,False
+dataset:000006,Obvious,Obvious,False
+dataset:000010,Beautification,Beautification,False
+dataset:000011,Obvious,Obvious,False
+dataset:000013,Obvious,Beautification,False
+dataset:000014,Obvious,Obvious,False
+dataset:000015,Commented out code,Commented out code,False

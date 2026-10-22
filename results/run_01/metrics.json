@@ -1,0 +1,15 @@
+{
+  "run": "run_01",
+  "n": 50,
+  "accuracy": 0.66,
+  "mcc": 0.576,
+  "macro_f1_all_10_labels": 0.459,
+  "macro_f1_labels_present": 0.764,
+  "invalid_outputs": 0,
+  "paper_target": {
+    "accuracy": 0.72,
+    "mcc": 0.51,
+    "tolerance": 0.1
+  },
+  "decision": "REPRODUCED"
+}
