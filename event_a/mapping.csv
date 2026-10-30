@@ -1,0 +1,51 @@
+case_id,label,old_lines,new_lines,status
+dataset:000001,Task,90-90,,removed
+dataset:000002,Task,99-99,,removed
+dataset:000003,Not a smell,105-105,117-117,unchanged
+dataset:000004,Beautification,108-108,120-120,code_changed
+dataset:000005,Beautification,120-122,199-201,code_changed
+dataset:000006,Obvious,128-128,210-210,code_changed
+dataset:000007,Not a smell,133-133,217-217,code_changed
+dataset:000008,Not a smell,172-173,259-260,unchanged
+dataset:000009,Not a smell,183-183,270-270,code_changed
+dataset:000010,Beautification,210-212,291-293,code_changed
+dataset:000011,Obvious,236-236,890-890,code_changed
+dataset:000012,Not a smell,242-242,936-936,code_changed
+dataset:000013,Obvious,255-255,,removed
+dataset:000014,Obvious,305-305,1411-1411,code_changed
+dataset:000015,Commented out code,330-330,519-519,code_changed
+dataset:000016,Task,331-331,,removed
+dataset:000017,Not a smell,338-338,1156-1156,code_changed
+dataset:000018,Obvious,357-357,,removed
+dataset:000019,Obvious,365-365,,removed
+dataset:000020,Obvious,376-376,1219-1219,code_changed
+dataset:000021,Obvious,389-389,1232-1232,code_changed
+dataset:000022,Obvious,419-419,1311-1311,code_changed
+dataset:000023,Obvious,427-427,1319-1319,code_changed
+dataset:000024,Not a smell,440-440,1332-1332,code_changed
+dataset:000025,Task,486-487,1338-1339,code_changed
+dataset:000026,Not a smell,490-490,1342-1342,code_changed
+dataset:000027,Task,499-499,1055-1055,code_changed
+dataset:000028,Not a smell,510-510,1062-1062,code_changed
+dataset:000029,Not a smell,516-516,1068-1068,code_changed
+dataset:000030,Task,539-540,1367-1368,code_changed
+dataset:000031,Not a smell,549-549,1377-1377,code_changed
+dataset:000032,Obvious,586-586,324-324,code_changed
+dataset:000033,Obvious,629-629,370-370,code_changed
+dataset:000034,Obvious,635-635,376-376,code_changed
+dataset:000035,Obvious,638-638,379-379,unchanged
+dataset:000036,Task,689-689,,removed
+dataset:000037,Obvious,698-698,656-656,unchanged
+dataset:000038,Not a smell,703-703,661-661,code_changed
+dataset:000039,Not a smell,760-760,,removed
+dataset:000040,Not a smell,762-762,,removed
+dataset:000041,Vague,815-815,,removed
+dataset:000042,Obvious,821-821,,removed
+dataset:000043,Not a smell,830-830,1195-1195,code_changed
+dataset:000044,Obvious,840-840,1186-1186,code_changed
+dataset:000045,Not a smell,849-849,,removed
+dataset:000046,Obvious,869-869,784-784,code_changed
+dataset:000047,Obvious,912-912,441-441,unchanged
+dataset:000048,Obvious,933-933,462-462,code_changed
+dataset:000049,Obvious,951-951,483-483,unchanged
+dataset:000050,Obvious,953-953,485-485,unchanged
