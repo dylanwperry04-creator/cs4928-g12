@@ -1,0 +1,39 @@
+case_id,status,label,m2_predicted,event_a_predicted,changed_from_m2,context_sufficient,reason
+dataset:000003,unchanged,Not a smell,Not a smell,Not a smell,False,False,"The comment clarifies the intended notification restriction represented by the constant, but its usage is not shown."
+dataset:000004,code_changed,Beautification,Beautification,Beautification,False,True,The comment is a generic section label for variable declarations without explaining their behavior.
+dataset:000005,code_changed,Beautification,Beautification,Beautification,False,True,The decorative divider labels the overridden methods section without explaining implementation behavior.
+dataset:000006,code_changed,Obvious,Obvious,Obvious,False,True,The immediately following calls explicitly enable the action bar's home button and up navigation.
+dataset:000007,code_changed,Not a smell,Not a smell,Not a smell,False,True,The comment explains the lifecycle precedence between initial collection path assignment and restored instance state.
+dataset:000008,unchanged,Not a smell,Not a smell,Not a smell,False,True,The comment explains why a changed collection path requires immediate navigation to the deck picker when returning from preferences.
+dataset:000009,code_changed,Not a smell,Not a smell,Not a smell,False,False,"The comment flags a potentially important performance concern, but the collection-closing implementation is unavailable to verify the database access."
+dataset:000010,code_changed,Beautification,Beautification,Beautification,False,True,The decorative divider introduces a class methods section without providing behavioral information.
+dataset:000011,code_changed,Obvious,Obvious,Obvious,False,True,The comment merely summarizes the immediately following call to initializeLanguageDialog.
+dataset:000012,code_changed,Not a smell,Not a smell,Not a smell,False,True,The comment clarifies the user-facing constraint enforced by the preference change listener when gestures are disabled.
+dataset:000014,code_changed,Obvious,Obvious,Obvious,False,True,The comment repeats the purpose already evident from the reset_custom_buttons preference and the removal of custom button settings.
+dataset:000015,code_changed,Commented out code,Commented out code,Commented out code,False,False,"The supplied comment contains an executable Java statement, but the code context shows the same statement as active code."
+dataset:000017,code_changed,Not a smell,Not a smell,Not a smell,False,True,The comment explains why the preference change listener checks directory initialization and rejects invalid collection paths.
+dataset:000020,code_changed,Obvious,Not a smell,Not a smell,False,True,The comment explains the testing purpose of deliberately triggering a crash and the restriction to debug builds.
+dataset:000021,code_changed,Obvious,Obvious,Not a smell,True,True,The comment describes the purpose of exposing analytics testing controls only in debug builds.
+dataset:000022,code_changed,Obvious,Not a smell,Not a smell,False,True,"The comment clarifies that the changelog preference is available in both debug and release builds, unlike preceding debug-only preferences."
+dataset:000023,code_changed,Obvious,Beautification,Beautification,False,True,The comment serves as a section label for the force_full_sync preference configuration without explaining additional behavior.
+dataset:000024,code_changed,Not a smell,Beautification,Beautification,False,True,The comment acts as a section heading grouping two preference-related helper calls without explaining their implementation.
+dataset:000025,code_changed,Task,Task,Task,False,True,The FIXME identifies a localization issue involving system and application languages that remains to be addressed.
+dataset:000026,code_changed,Not a smell,Not a smell,Not a smell,False,True,The comment clarifies that resource strings with card-browser-specific names are intentionally reused for generic context menus.
+dataset:000027,code_changed,Task,Not a smell,Task,True,True,"The comment identifies an unresolved defect in handling Google Drive downloads, indicating functionality that needs fixing."
+dataset:000028,code_changed,Not a smell,Obvious,Obvious,False,True,The division by 1024 twice already makes the conversion from bytes to megabytes clear.
+dataset:000029,code_changed,Not a smell,Obvious,Obvious,False,True,The condition checking fileLength against 10 and the subsequent file transfer already express the described behavior.
+dataset:000030,code_changed,Task,Not a smell,Not a smell,False,True,The comment explains the compatibility constraint motivating explicit click handling and exception management when no browser is installed.
+dataset:000031,code_changed,Not a smell,Not a smell,Not a smell,False,True,The comment explains the snackbar space constraint motivating the choice of a different error message.
+dataset:000032,code_changed,Obvious,Not a smell,Not a smell,False,True,The comment clarifies the non-obvious distinction that these preferences are stored in the Collection rather than ordinary preference storage.
+dataset:000033,code_changed,Obvious,Obvious,Obvious,False,True,The else branch following the null Collection check directly disables the preference using pref.setEnabled(false).
+dataset:000034,code_changed,Obvious,Misleading,Misleading,False,True,The code reads the preference summary and stores it in mOriginalSumarries rather than setting a value from the summary cache.
+dataset:000035,unchanged,Obvious,Obvious,Obvious,False,True,The immediately following updateSummary(pref) call already states exactly what the comment describes.
+dataset:000037,unchanged,Obvious,Beautification,Obvious,True,True,"The following switch statement visibly handles individual preference keys, making the generic description redundant."
+dataset:000038,code_changed,Not a smell,Not a smell,Not a smell,False,False,"The comment warns about potentially premature handling of a preference change, but the Back-button timing cannot be verified from the supplied code."
+dataset:000043,code_changed,Not a smell,Not a smell,Not a smell,False,True,The comment explains why ConfirmModSchemaException is considered unexpected after the explicit modSchemaNoCheck() call.
+dataset:000044,code_changed,Obvious,Obvious,Obvious,False,True,The comment repeats the scheduler transition to version 2 already evident from changeSchedulerVer(2) and the surrounding code.
+dataset:000046,code_changed,Obvious,Obvious,Obvious,False,True,The comment restates the purpose of the immediately following updateSummary(pref) call.
+dataset:000047,unchanged,Obvious,Beautification,Obvious,True,True,The comment merely describes the special-case handling already evident from the switch statement and its preference-specific branches.
+dataset:000048,code_changed,Obvious,Beautification,Obvious,True,True,The comment repeats the straightforward extraction of preference values into the variable named value.
+dataset:000049,unchanged,Obvious,Beautification,Obvious,True,True,The comment simply describes the retrieval of the existing summary into the clearly named oldSummary variable.
+dataset:000050,unchanged,Obvious,Obvious,Obvious,False,True,The comment restates the summary replacement logic already apparent from the following conditional branches and setSummary calls.

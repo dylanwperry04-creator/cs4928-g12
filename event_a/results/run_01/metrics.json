@@ -1,0 +1,45 @@
+{
+  "run": "run_01",
+  "comments_in_m2_sample": 50,
+  "survived": 38,
+  "removed": 12,
+  "event_a_all_survivors": {
+    "n": 38,
+    "accuracy": 0.737,
+    "mcc": 0.619,
+    "invalid_outputs": 0,
+    "decision_vs_paper": "NOT REPRODUCED"
+  },
+  "event_a_nearby_code_unchanged": {
+    "n": 7,
+    "accuracy": 1.0,
+    "mcc": 1.0
+  },
+  "event_a_nearby_code_changed": {
+    "n": 31,
+    "accuracy": 0.677,
+    "mcc": 0.554
+  },
+  "m2_on_same_survivors": {
+    "n": 38,
+    "accuracy": 0.632,
+    "mcc": 0.502
+  },
+  "label_agreement_with_m2": {
+    "all": {
+      "n": 38,
+      "same_label_as_m2": 32,
+      "rate": 0.842
+    },
+    "unchanged": {
+      "n": 7,
+      "same_label_as_m2": 4,
+      "rate": 0.571
+    },
+    "code_changed": {
+      "n": 31,
+      "same_label_as_m2": 28,
+      "rate": 0.903
+    }
+  }
+}
