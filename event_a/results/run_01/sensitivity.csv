@@ -1,0 +1,4 @@
+analysis,excluded_ids,n,m2_accuracy,m2_mcc,event_a_accuracy,event_a_mcc,decision_vs_paper
+frozen_all_automatic_matches,,38,0.631578947368421,0.5019874831500979,0.7368421052631579,0.6188040870907316,NOT REPRODUCED
+exclude_active_code_false_match,dataset:000015,37,0.6216216216216216,0.47658042287669033,0.7297297297297297,0.5983145118071921,REPRODUCED
+exclude_false_match_and_ambiguous_identity,dataset:000015;dataset:000043,36,0.6111111111111112,0.4648348401006841,0.7222222222222222,0.5883110060307674,REPRODUCED

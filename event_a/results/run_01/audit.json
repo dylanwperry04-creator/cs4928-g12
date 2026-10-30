@@ -1,0 +1,117 @@
+{
+  "collection_commit": "b872489ab9580c83f26e7169870f6c5fe73905e5",
+  "raw_response_validation": {
+    "valid": true,
+    "batch_sizes": [
+      10,
+      10,
+      10,
+      8
+    ],
+    "unique_case_ids": 38,
+    "fixed_prompt_identical": true
+  },
+  "full_m2": {
+    "n": 50,
+    "correct": 33,
+    "accuracy": 0.66,
+    "mcc": 0.5764251650513628
+  },
+  "m2_on_same_automatic_matches": {
+    "n": 38,
+    "correct": 24,
+    "accuracy": 0.631578947368421,
+    "mcc": 0.5019874831500979
+  },
+  "event_a_frozen": {
+    "n": 38,
+    "correct": 28,
+    "accuracy": 0.7368421052631579,
+    "mcc": 0.6188040870907316
+  },
+  "delta_vs_full_m2": {
+    "accuracy": 0.07684210526315782,
+    "mcc": 0.04237892203936888
+  },
+  "delta_vs_same_cases_m2": {
+    "accuracy": 0.10526315789473684,
+    "mcc": 0.11681660394063376
+  },
+  "all_label_flip_ids": [
+    "dataset:000021",
+    "dataset:000027",
+    "dataset:000037",
+    "dataset:000047",
+    "dataset:000048",
+    "dataset:000049"
+  ],
+  "paired_changes": {
+    "wrong_to_correct": [
+      "dataset:000027",
+      "dataset:000037",
+      "dataset:000047",
+      "dataset:000048",
+      "dataset:000049"
+    ],
+    "correct_to_wrong": [
+      "dataset:000021"
+    ]
+  },
+  "unchanged_nearby_window": {
+    "n": 7,
+    "flip_ids": [
+      "dataset:000037",
+      "dataset:000047",
+      "dataset:000049"
+    ],
+    "flip_rate": 0.42857142857142855,
+    "identical_full_normalized_context_ids": [],
+    "challenge_above_30_percent_triggered": true
+  },
+  "pre_recorded_predictions": {
+    "at_least_40_automatic_matches": false,
+    "accuracy_and_mcc_within_010_of_full_m2": true,
+    "same_cases_supplemental_within_010": false,
+    "score_drop_over_010_vs_full_m2": false,
+    "two_to_five_newly_stale_comments": "not_established_from_supplied_sources"
+  },
+  "mapping_audit": {
+    "target_points_to_active_code": [
+      "dataset:000015"
+    ],
+    "ambiguous_duplicate_ids": [
+      "dataset:000043",
+      "dataset:000045"
+    ],
+    "manual_assessments": {
+      "not_found": 11,
+      "valid": 36,
+      "false_match_active_code": 1,
+      "ambiguous_duplicate": 1,
+      "unmatched_duplicate": 1
+    }
+  },
+  "source_review": {
+    "accuracy_assessments": {
+      "not_applicable": 13,
+      "uncertain": 6,
+      "yes": 30,
+      "no": 1
+    },
+    "confirmed_new_stale_cases": [],
+    "preexisting_misaligned_cases": [
+      "dataset:000034"
+    ],
+    "unresolved_warning_cases": [
+      "dataset:000003",
+      "dataset:000009",
+      "dataset:000025",
+      "dataset:000027",
+      "dataset:000038",
+      "dataset:000043"
+    ],
+    "reviewer": "ChatGPT/Codex source inspection after scoring; not blinded human annotation"
+  },
+  "paper_decision_frozen": "NOT REPRODUCED",
+  "sensitivity_is_post_run": true
+}
