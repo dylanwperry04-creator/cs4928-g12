@@ -1,0 +1,50 @@
+[
+  {
+    "case_id": "dataset:000038",
+    "predicted_label": "Not a smell",
+    "context_sufficient": false,
+    "reason": "The comment warns about potentially premature handling of a preference change, but the Back-button timing cannot be verified from the supplied code."
+  },
+  {
+    "case_id": "dataset:000043",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "The comment explains why ConfirmModSchemaException is considered unexpected after the explicit modSchemaNoCheck() call."
+  },
+  {
+    "case_id": "dataset:000044",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "The comment repeats the scheduler transition to version 2 already evident from changeSchedulerVer(2) and the surrounding code."
+  },
+  {
+    "case_id": "dataset:000046",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "The comment restates the purpose of the immediately following updateSummary(pref) call."
+  },
+  {
+    "case_id": "dataset:000047",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "The comment merely describes the special-case handling already evident from the switch statement and its preference-specific branches."
+  },
+  {
+    "case_id": "dataset:000048",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "The comment repeats the straightforward extraction of preference values into the variable named value."
+  },
+  {
+    "case_id": "dataset:000049",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "The comment simply describes the retrieval of the existing summary into the clearly named oldSummary variable."
+  },
+  {
+    "case_id": "dataset:000050",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "The comment restates the summary replacement logic already apparent from the following conditional branches and setSummary calls."
+  }
+]

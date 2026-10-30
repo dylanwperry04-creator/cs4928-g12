@@ -1,0 +1,62 @@
+[
+  {
+    "case_id": "dataset:000014",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "The comment repeats the purpose already evident from the reset_custom_buttons preference and the removal of custom button settings."
+  },
+  {
+    "case_id": "dataset:000015",
+    "predicted_label": "Commented out code",
+    "context_sufficient": false,
+    "reason": "The supplied comment contains an executable Java statement, but the code context shows the same statement as active code."
+  },
+  {
+    "case_id": "dataset:000017",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "The comment explains why the preference change listener checks directory initialization and rejects invalid collection paths."
+  },
+  {
+    "case_id": "dataset:000020",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "The comment explains the testing purpose of deliberately triggering a crash and the restriction to debug builds."
+  },
+  {
+    "case_id": "dataset:000021",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "The comment describes the purpose of exposing analytics testing controls only in debug builds."
+  },
+  {
+    "case_id": "dataset:000022",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "The comment clarifies that the changelog preference is available in both debug and release builds, unlike preceding debug-only preferences."
+  },
+  {
+    "case_id": "dataset:000023",
+    "predicted_label": "Beautification",
+    "context_sufficient": true,
+    "reason": "The comment serves as a section label for the force_full_sync preference configuration without explaining additional behavior."
+  },
+  {
+    "case_id": "dataset:000024",
+    "predicted_label": "Beautification",
+    "context_sufficient": true,
+    "reason": "The comment acts as a section heading grouping two preference-related helper calls without explaining their implementation."
+  },
+  {
+    "case_id": "dataset:000025",
+    "predicted_label": "Task",
+    "context_sufficient": true,
+    "reason": "The FIXME identifies a localization issue involving system and application languages that remains to be addressed."
+  },
+  {
+    "case_id": "dataset:000026",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "The comment clarifies that resource strings with card-browser-specific names are intentionally reused for generic context menus."
+  }
+]

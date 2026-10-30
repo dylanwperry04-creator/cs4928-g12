@@ -1,0 +1,62 @@
+[
+  {
+    "case_id": "dataset:000027",
+    "predicted_label": "Task",
+    "context_sufficient": true,
+    "reason": "The comment identifies an unresolved defect in handling Google Drive downloads, indicating functionality that needs fixing."
+  },
+  {
+    "case_id": "dataset:000028",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "The division by 1024 twice already makes the conversion from bytes to megabytes clear."
+  },
+  {
+    "case_id": "dataset:000029",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "The condition checking fileLength against 10 and the subsequent file transfer already express the described behavior."
+  },
+  {
+    "case_id": "dataset:000030",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "The comment explains the compatibility constraint motivating explicit click handling and exception management when no browser is installed."
+  },
+  {
+    "case_id": "dataset:000031",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "The comment explains the snackbar space constraint motivating the choice of a different error message."
+  },
+  {
+    "case_id": "dataset:000032",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "The comment clarifies the non-obvious distinction that these preferences are stored in the Collection rather than ordinary preference storage."
+  },
+  {
+    "case_id": "dataset:000033",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "The else branch following the null Collection check directly disables the preference using pref.setEnabled(false)."
+  },
+  {
+    "case_id": "dataset:000034",
+    "predicted_label": "Misleading",
+    "context_sufficient": true,
+    "reason": "The code reads the preference summary and stores it in mOriginalSumarries rather than setting a value from the summary cache."
+  },
+  {
+    "case_id": "dataset:000035",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "The immediately following updateSummary(pref) call already states exactly what the comment describes."
+  },
+  {
+    "case_id": "dataset:000037",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "The following switch statement visibly handles individual preference keys, making the generic description redundant."
+  }
+]

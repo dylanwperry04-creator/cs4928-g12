@@ -1,0 +1,62 @@
+[
+  {
+    "case_id": "dataset:000003",
+    "predicted_label": "Not a smell",
+    "context_sufficient": false,
+    "reason": "The comment clarifies the intended notification restriction represented by the constant, but its usage is not shown."
+  },
+  {
+    "case_id": "dataset:000004",
+    "predicted_label": "Beautification",
+    "context_sufficient": true,
+    "reason": "The comment is a generic section label for variable declarations without explaining their behavior."
+  },
+  {
+    "case_id": "dataset:000005",
+    "predicted_label": "Beautification",
+    "context_sufficient": true,
+    "reason": "The decorative divider labels the overridden methods section without explaining implementation behavior."
+  },
+  {
+    "case_id": "dataset:000006",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "The immediately following calls explicitly enable the action bar's home button and up navigation."
+  },
+  {
+    "case_id": "dataset:000007",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "The comment explains the lifecycle precedence between initial collection path assignment and restored instance state."
+  },
+  {
+    "case_id": "dataset:000008",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "The comment explains why a changed collection path requires immediate navigation to the deck picker when returning from preferences."
+  },
+  {
+    "case_id": "dataset:000009",
+    "predicted_label": "Not a smell",
+    "context_sufficient": false,
+    "reason": "The comment flags a potentially important performance concern, but the collection-closing implementation is unavailable to verify the database access."
+  },
+  {
+    "case_id": "dataset:000010",
+    "predicted_label": "Beautification",
+    "context_sufficient": true,
+    "reason": "The decorative divider introduces a class methods section without providing behavioral information."
+  },
+  {
+    "case_id": "dataset:000011",
+    "predicted_label": "Obvious",
+    "context_sufficient": true,
+    "reason": "The comment merely summarizes the immediately following call to initializeLanguageDialog."
+  },
+  {
+    "case_id": "dataset:000012",
+    "predicted_label": "Not a smell",
+    "context_sufficient": true,
+    "reason": "The comment clarifies the user-facing constraint enforced by the preference change listener when gestures are disabled."
+  }
+]
