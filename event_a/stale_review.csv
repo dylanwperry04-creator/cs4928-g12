@@ -1,32 +1,32 @@
 case_id,label,old_lines,new_lines,still_accurate,note
-dataset:000004,Beautification,108-108,120-120,yes,Other variables still introduces declarations at 120-125; added declarations change the nearby window. No evolution-driven change; optional removal of a generic heading is a separate style decision.
-dataset:000005,Beautification,120-122,199-201,yes,Overridden methods still introduces onCreate at 199-203; initialization order changed. No evolution-driven repair.
-dataset:000006,Obvious,128-128,210-210,yes,The same home-button and up-navigation calls remain at 211-212 after toolbar initialization. No evolution-driven repair; redundancy was already present.
-dataset:000007,Not a smell,133-133,217-217,yes,Initial assignment remains at 218 and onRestoreInstanceState restores mOldCollectionPath at 285-287. Retain the lifecycle explanation.
-dataset:000009,Not a smell,183-183,270-270,uncertain,The closeCollection call is unchanged at 271; its database/thread implementation is outside the supplied file. Check the helper and threading behavior before deleting or strengthening the warning.
-dataset:000010,Beautification,210-212,291-293,yes,The Class methods divider remains at 291-293 before further class members; surrounding members changed. No evolution-driven repair; decorative taxonomy is a separate issue.
-dataset:000011,Obvious,236-236,890-890,yes,The comment moved into GeneralSettingsFragment and still precedes initializeLanguageDialog at 890-891. No evolution-driven repair; optional redundancy cleanup only.
-dataset:000012,Not a smell,242-242,936-936,yes,"The listener now checks answer-buttons position and gestures, displays the error toast, and rejects none at 936-945. Retain the constraint explanation; the changed implementation still enforces it."
-dataset:000014,Obvious,305-305,1411-1411,yes,The same reset operation removes customButton keys at 1411-1435; a refresh is now invoked afterward. No evolution-driven repair.
-dataset:000015,Commented out code,330-330,519-519,not_applicable,"Old 330 is //finish();. New 519 is active finish(); in closePreferences, not a comment or the original reset handler. Exclude only in a separately labelled sensitivity analysis; preserve the frozen input and score."
-dataset:000017,Not a smell,338-338,1156-1156,yes,The path preference listener still calls initializeAnkiDroidDirectory inside a try block at 1156-1170. Retain the validation rationale.
-dataset:000020,Obvious,376-376,1219-1219,yes,The same BuildConfig.DEBUG and test-client guard still encloses the deliberately crashing listener at 1219-1230. No new staleness; Obvious versus Not a smell is an inherited taxonomy disagreement.
-dataset:000021,Obvious,389-389,1232-1232,yes,BuildConfig.DEBUG still guards the analytics testing controls at 1232-1250. No new staleness; the prediction changed despite retained meaning.
-dataset:000022,Obvious,419-419,1311-1311,yes,Changelog setup remains outside the debug-only block at 1311-1318. Retain or simplify by style preference; not a newly stale claim.
-dataset:000023,Obvious,427-427,1319-1319,yes,The heading still precedes force_full_sync preference configuration at 1319-1331. No evolution-driven repair; Obvious versus Beautification is a taxonomy boundary.
-dataset:000024,Not a smell,440-440,1332-1332,yes,The heading still groups removeUnnecessaryAdvancedPrefs and addThirdPartyAppsListener at 1332-1334. Review usefulness as a heading; no demonstrated new contradiction.
-dataset:000025,Task,486-487,1338-1339,uncertain,The FIXME remains around context-menu naming at 1338-1344; manifest language and resource behavior are not supplied. Verify manifest/resources before deciding the localization warning is stale.
-dataset:000026,Not a smell,490-490,1342-1342,yes,Both title and summary format calls still take the generic menuName argument at 1342-1344. Retain the explanation of intentionally reused resource names.
-dataset:000027,Task,499-499,1055-1055,uncertain,Old code used DATA and a filesystem File; new 1058-1072 queries SIZE and opens the URI through ContentResolver. This alone does not prove all Drive downloads work. Investigate the warning with a provider-specific test; do not mark it definitely stale from this file alone.
-dataset:000028,Not a smell,510-510,1062-1062,yes,"The size conversion remains division by 1024 * 1024 at 1062-1063, now using the cursor size. No new staleness; MB versus MiB wording and redundancy predate this event."
-dataset:000029,Not a smell,516-516,1068-1068,yes,The less-than-10 size check and copy into the AnkiDroid directory remain at 1065-1073. No evolution-driven repair; avoid confusing taxonomy disagreement with staleness.
-dataset:000030,Task,539-540,1367-1368,yes,Explicit click handling and ActivityNotFoundException handling remain at 1367-1380. Keep the compatibility rationale; the inherited Task label is debatable but unchanged.
-dataset:000031,Not a smell,549-549,1377-1377,yes,The shorter error resource and snackbar call remain at 1377-1379 after the missing-browser exception. Keep the space-constraint rationale; rendered text length was not tested.
-dataset:000032,Obvious,586-586,324-324,yes,"The preference-key membership test, collection lookup, and configuration reads remain at 324-366. No new staleness; inherited Obvious versus explanatory-label disagreement remains."
-dataset:000033,Obvious,629-629,370-370,yes,The null-collection else branch still calls pref.setEnabled(false) at 369-371. No evolution-driven repair.
-dataset:000034,Obvious,635-635,376-376,no,"Old 635-637 and new 376-378 both read pref.getSummary and put into the cache. The comment says from the cache, reversing the data flow in both versions. Proposed comment-only fix: Cache the original summary before updating the displayed summary."
-dataset:000038,Not a smell,703-703,661-661,uncertain,The warning and handleSyncServerPreferenceChange call remain at 661-662; complete Back-event semantics and helper implementation are outside the local evidence. Verify the event flow before treating the timing warning as resolved.
-dataset:000043,Not a smell,830-830,1195-1195,uncertain,"Old identical warnings occur at 830 (V1) and 849 (V2), but only one remains at new 1195 in the V2 branch. The greedy text matcher assigns it to case 43. Preserve the automatic mapping; exclude case 43 in a separately labelled conservative sensitivity analysis."
-dataset:000044,Obvious,840-840,1186-1186,yes,The Going to V2 comment still precedes the V2 upgrade dialog and changeSchedulerVer(2) at 1186-1192. No evolution-driven repair.
-dataset:000046,Obvious,869-869,784-784,yes,The comment still precedes an updateSummary call at 784-785; the receiver is now preferencesActivity. No evolution-driven repair.
-dataset:000048,Obvious,933-933,462-462,yes,The section still computes a value string at 462-481 despite an added ControlPreference early return. No evolution-driven repair.
+dataset:000004,Beautification,108-108,120-120,,
+dataset:000005,Beautification,120-122,199-201,,
+dataset:000006,Obvious,128-128,210-210,,
+dataset:000007,Not a smell,133-133,217-217,,
+dataset:000009,Not a smell,183-183,270-270,,
+dataset:000010,Beautification,210-212,291-293,,
+dataset:000011,Obvious,236-236,890-890,,
+dataset:000012,Not a smell,242-242,936-936,,
+dataset:000014,Obvious,305-305,1411-1411,,
+dataset:000015,Commented out code,330-330,519-519,,
+dataset:000017,Not a smell,338-338,1156-1156,,
+dataset:000020,Obvious,376-376,1219-1219,,
+dataset:000021,Obvious,389-389,1232-1232,,
+dataset:000022,Obvious,419-419,1311-1311,,
+dataset:000023,Obvious,427-427,1319-1319,,
+dataset:000024,Not a smell,440-440,1332-1332,,
+dataset:000025,Task,486-487,1338-1339,,
+dataset:000026,Not a smell,490-490,1342-1342,,
+dataset:000027,Task,499-499,1055-1055,,
+dataset:000028,Not a smell,510-510,1062-1062,,
+dataset:000029,Not a smell,516-516,1068-1068,,
+dataset:000030,Task,539-540,1367-1368,,
+dataset:000031,Not a smell,549-549,1377-1377,,
+dataset:000032,Obvious,586-586,324-324,,
+dataset:000033,Obvious,629-629,370-370,,
+dataset:000034,Obvious,635-635,376-376,,
+dataset:000038,Not a smell,703-703,661-661,,
+dataset:000043,Not a smell,830-830,1195-1195,,
+dataset:000044,Obvious,840-840,1186-1186,,
+dataset:000046,Obvious,869-869,784-784,,
+dataset:000048,Obvious,933-933,462-462,,

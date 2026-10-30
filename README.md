@@ -27,18 +27,6 @@ python3 scripts/score.py runs/run_01           # scores a saved run into results
 ```
 Python 3.10+, standard library only.
 
-Review PLAN.md and confirm the model/setup before collecting responses. Saved M2 results are in results/run_01; the completed Event A comparison is linked below.
+Review PLAN.md and confirm the model/setup before collecting responses. No experiment results are included in this package.
 
 Incomplete or malformed runs produce an INCONCLUSIVE report. Existing result folders are never overwritten.
-
-## Event A transfer test
-
-[Results and interpretation](event_a/RESULTS.md) compare the frozen later-snapshot run with M2, review comment evolution, and distinguish the original score from post-run sensitivity checks.
-
-- [Raw replies and run log](event_a/runs/run_01/)
-- [Frozen first-result scores](event_a/results/run_01/metrics.json)
-- [Source review](event_a/review/comment_review.csv)
-- [Validation and reproduction](event_a/VALIDATION.md)
-- [Text for the shared tracker](event_a/TRACKER_ENTRY.md)
-
-Recompute the supplemental audit with `python scripts/analyse_event_a.py event_a/runs/run_01`. The frozen scorer refuses to overwrite its checked-in results.
