@@ -1,32 +1,32 @@
 case_id,label,old_lines,new_lines,still_accurate,note
-dataset:000004,Beautification,108-108,120-120,,
-dataset:000005,Beautification,120-122,199-201,,
-dataset:000006,Obvious,128-128,210-210,,
-dataset:000007,Not a smell,133-133,217-217,,
-dataset:000009,Not a smell,183-183,270-270,,
-dataset:000010,Beautification,210-212,291-293,,
-dataset:000011,Obvious,236-236,890-890,,
-dataset:000012,Not a smell,242-242,936-936,,
-dataset:000014,Obvious,305-305,1411-1411,,
-dataset:000015,Commented out code,330-330,519-519,,
-dataset:000017,Not a smell,338-338,1156-1156,,
-dataset:000020,Obvious,376-376,1219-1219,,
-dataset:000021,Obvious,389-389,1232-1232,,
-dataset:000022,Obvious,419-419,1311-1311,,
-dataset:000023,Obvious,427-427,1319-1319,,
-dataset:000024,Not a smell,440-440,1332-1332,,
-dataset:000025,Task,486-487,1338-1339,,
-dataset:000026,Not a smell,490-490,1342-1342,,
-dataset:000027,Task,499-499,1055-1055,,
-dataset:000028,Not a smell,510-510,1062-1062,,
-dataset:000029,Not a smell,516-516,1068-1068,,
-dataset:000030,Task,539-540,1367-1368,,
-dataset:000031,Not a smell,549-549,1377-1377,,
-dataset:000032,Obvious,586-586,324-324,,
-dataset:000033,Obvious,629-629,370-370,,
-dataset:000034,Obvious,635-635,376-376,,
-dataset:000038,Not a smell,703-703,661-661,,
-dataset:000043,Not a smell,830-830,1195-1195,,
-dataset:000044,Obvious,840-840,1186-1186,,
-dataset:000046,Obvious,869-869,784-784,,
-dataset:000048,Obvious,933-933,462-462,,
+dataset:000004,Beautification,108-108,120-120,yes,Section header; same field follows. Section contents grew but header still fits
+dataset:000005,Beautification,120-122,199-201,yes,Divider still sits above onCreate; only constants above it changed
+dataset:000006,Obvious,128-128,210-210,yes,Identical 3 lines of action-bar code still follow
+dataset:000007,Not a smell,133-133,217-217,yes,Same assignment follows; fragment code added around it
+dataset:000009,Not a smell,183-183,270-270,yes,Code unchanged; only an annotation added above the method
+dataset:000010,Beautification,210-212,291-293,yes,Divider; methods below it reordered
+dataset:000011,Obvious,236-236,890-890,yes,Still directly above initializeLanguageDialog(screen)
+dataset:000012,Not a smell,242-242,936-936,yes,Check moved from fullscreenMode to answer-button position setting; comment now fits the code even better
+dataset:000014,Obvious,305-305,1411-1411,yes,"Same reset-buttons preference, migrated to androidx API"
+dataset:000015,Commented out code,330-330,519-519,n/a,MAPPING ERROR: original //finish(); line was deleted in 2022. Script matched it to a live finish() call in closePreferences(). Treat as removed
+dataset:000017,Not a smell,338-338,1156-1156,yes,"Same deck-path validation, migrated to androidx API"
+dataset:000020,Obvious,376-376,1219-1219,yes,Same DEBUG-only crash test block
+dataset:000021,Obvious,389-389,1232-1232,yes,Same DEBUG-only analytics block
+dataset:000022,Obvious,419-419,1311-1311,yes,"Same changelog preference, migrated API"
+dataset:000023,Obvious,427-427,1319-1319,yes,"Same force full sync preference, migrated API"
+dataset:000024,Not a smell,440-440,1332-1332,yes,Same two workaround calls; parameters removed
+dataset:000025,Task,486-487,1338-1339,yes,Same context-menu naming issue still applies
+dataset:000026,Not a smell,490-490,1342-1342,yes,Same format strings follow
+dataset:000027,Task,499-499,1055-1055,yes,Defect still unaddressed; same image-loading code
+dataset:000028,Not a smell,510-510,1062-1062,yes,Size now read via content resolver but still divided into MB
+dataset:000029,Not a smell,516-516,1068-1068,yes,Same < 10 MB check follows
+dataset:000030,Task,539-540,1367-1368,yes,Same third-party apps workaround
+dataset:000031,Not a smell,549-549,1377-1377,yes,Same snackbar message; context argument changed
+dataset:000032,Obvious,586-586,324-324,yes,Same collection-preference loading code
+dataset:000033,Obvious,629-629,370-370,yes,Same disable-if-closed code
+dataset:000034,Obvious,635-635,376-376,yes,Same summary cache code
+dataset:000038,Not a smell,703-703,661-661,yes,Same sync-server call; context argument changed
+dataset:000043,Not a smell,830-830,1195-1195,yes,"Comment existed twice in 2021 (V2->V1 and V1->V2 branches); V1 option removed, so this matches the surviving V1->V2 copy. Same text and label"
+dataset:000044,Obvious,840-840,1186-1186,yes,Same V2 switch dialog follows
+dataset:000046,Obvious,869-869,784-784,yes,"Same updateSummary call, now via preferencesActivity"
+dataset:000048,Obvious,933-933,462-462,yes,Still computes value text; new early return for ControlPreference
