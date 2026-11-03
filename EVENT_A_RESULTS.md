@@ -49,7 +49,6 @@ Applying the frozen paper rule to Event A gives NOT REPRODUCED, only because MCC
 ## What transfers and what does not
 
 - **Transfers:** overall detection performance. On later code the model scored at least as well as in M2, and the M2 REPRODUCED conclusion is not weakened.
-- **Does not transfer:** the specific class-wise error pattern. M2's main weakness (Obvious read as Beautification, 8 of 22) mostly disappeared, including on comments whose code did not change. The strongest evidence is cases 037, 047 and 049: same comment, same nearby code, different label. So that M2 error pattern reflects run-to-run variation in a single run as much as a stable model weakness. M2 used one run, so we cannot separate the two (see D2).
 - **Label changes:** Cases 037, 047 and 049 changed from Beautification in M2 to Obvious in Event A even though the three lines on either side were unchanged. The wider code context and batch contents differed, so the comparison cannot establish what caused the label changes.
 - **Evolution effect:** in this file, evolution removed comments rather than making them stale. Comments disappeared with the code or task they described; surviving comments were carried through refactors and stayed accurate.
 
