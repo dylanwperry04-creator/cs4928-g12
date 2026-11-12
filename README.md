@@ -79,3 +79,12 @@ The comments in 000006 and 000011 duplicate what their adjacent method calls alr
 
 The patch passed `git apply --check` and applied cleanly to a copy of the pinned Java source. A byte comparison confirmed that the repaired file differs only by deletion of the two standalone comment lines. Reversing the patch restored the original bytes. This verifies the source-level behaviour claim. An Android build or runtime test was outside this check. The Event A inputs and results remain reproducible from the original snapshots.
 
+## Event B (comment drift under API renames)
+
+- `scripts/check_comment_refs.py`: flags comments that name an identifier missing from the code (exit code 1 if any). Project names it should ignore are in `scripts/comment_glossary.txt`.
+- `scripts/simulate_event_b.py`: applies IDE-style renames to the 2022 file before and after the Week 9 change, and runs the check. Output in `event_b/`.
+
+```bash
+python3 scripts/check_comment_refs.py event_a/source/Preferences_9db834afd0.java
+python3 scripts/simulate_event_b.py
+```

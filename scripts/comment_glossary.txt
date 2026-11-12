@@ -1,0 +1,6 @@
+AnkiDroid
+AnkiWeb
+AnkiMobile
+SharedPreference
+SharedPreferences
+PreferenceFragment

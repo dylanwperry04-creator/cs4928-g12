@@ -1,0 +1,94 @@
+{
+  "S0_original": {
+    "comments": 87,
+    "naming_identifiers": 22,
+    "dangling_before_rename": [
+      [
+        122,
+        [
+          "estTime"
+        ]
+      ]
+    ],
+    "renames": {
+      "R1_modSchemaNoCheck": {
+        "code_lines_changed": 2,
+        "comments_flagged_by_check": [
+          [
+            1195,
+            [
+              "modSchemaNoCheck"
+            ],
+            "This should never be reached as we explicitly called modSchemaNoCheck()"
+          ]
+        ],
+        "comments_mentioning_old_concept_in_plain_words": []
+      },
+      "R2_onRestoreInstanceState": {
+        "code_lines_changed": 2,
+        "comments_flagged_by_check": [
+          [
+            217,
+            [
+              "onRestoreInstanceState"
+            ],
+            "onRestoreInstanceState takes priority, this is only set on init."
+          ]
+        ],
+        "comments_mentioning_old_concept_in_plain_words": []
+      },
+      "R3_getSupportActionBar": {
+        "code_lines_changed": 3,
+        "comments_flagged_by_check": [],
+        "comments_mentioning_old_concept_in_plain_words": [
+          210
+        ]
+      }
+    }
+  },
+  "S1_week9": {
+    "comments": 85,
+    "naming_identifiers": 22,
+    "dangling_before_rename": [
+      [
+        122,
+        [
+          "estTime"
+        ]
+      ]
+    ],
+    "renames": {
+      "R1_modSchemaNoCheck": {
+        "code_lines_changed": 2,
+        "comments_flagged_by_check": [
+          [
+            1193,
+            [
+              "modSchemaNoCheck"
+            ],
+            "This should never be reached as we explicitly called modSchemaNoCheck()"
+          ]
+        ],
+        "comments_mentioning_old_concept_in_plain_words": []
+      },
+      "R2_onRestoreInstanceState": {
+        "code_lines_changed": 2,
+        "comments_flagged_by_check": [
+          [
+            216,
+            [
+              "onRestoreInstanceState"
+            ],
+            "onRestoreInstanceState takes priority, this is only set on init."
+          ]
+        ],
+        "comments_mentioning_old_concept_in_plain_words": []
+      },
+      "R3_getSupportActionBar": {
+        "code_lines_changed": 3,
+        "comments_flagged_by_check": [],
+        "comments_mentioning_old_concept_in_plain_words": []
+      }
+    }
+  }
+}
