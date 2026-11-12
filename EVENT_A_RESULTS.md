@@ -59,3 +59,5 @@ Applying the frozen paper rule to Event A gives NOT REPRODUCED, only because MCC
 ## Evidence
 
 `EVENT_A.md`, `event_a/mapping.csv`, `event_a/stale_review.csv`, `event_a/runs/run_01/`, `event_a/results/run_01/metrics.json`, `predictions.csv`, `per_class.csv`, `scripts/prepare_event_a.py`, `scripts/score_event_a.py`.
+
+*Edited 3 Nov 2026 (after submission): softened the label-change conclusion, because wider context and batch contents also differed between runs. Original wording is in commit d81746b.*
